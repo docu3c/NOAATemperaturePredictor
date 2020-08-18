@@ -1,0 +1,18 @@
+<html>
+<link rel="stylesheet" href="templates\css\styles.css">
+   <body>
+		 <h1>NOAA ISD Weather Data USA </h1>
+      <form action = "/result" method = "POST">
+         <!-- <p>Name <input type = "text" name = "Name" /></p>
+         <p>Physics <input type = "text" name = "Physics" /></p>
+         <p>Chemistry <input type = "text" name = "chemistry" /></p>
+         <p>Maths <input type ="text" name = "Mathematics" /></p> -->
+				 <p>Latitude :
+					 <input type="text" name="latitude" placeholder="Latitude" required></input>
+				 </p>
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+		<h2>Output</h2>
+					Temperature : {{ result }}
+   </body>
+</html>
